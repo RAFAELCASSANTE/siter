@@ -1,0 +1,40 @@
+*{
+margin: 0 0;
+padding: 0 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.cabeçalho{                         
+background-color: #9E007B;
+color: black;
+display: flex;
+justify-content: space-around;
+padding: 24px 0;
+}
+.cabeçalho-imagem{ 
+width: 10%;
+}
+.cabeçalho-lista-item{
+display: inline-block;
+margin: 0 10px ;
+font-size: 24px ;
+}
+.Escola{
+color: white;
+    background-image: linear-gradient(#9E007B, #4EBFE9);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Escola-Image{ 
+    width: 35%;
+}
+.dividir-cont{
+    width: 35%;
+}
+.Escola-texto-1{
+    padding:24px 0 ;
+}
