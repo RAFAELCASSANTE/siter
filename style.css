@@ -1,6 +1,6 @@
 *{
 margin: 0 0;
-padding: 0 0;
+padding: 0 16;
 
 }
 body{
@@ -8,33 +8,52 @@ body{
     
 }
 .cabeçalho{                         
-background-color: #9E007B;
-color: black;
+background-color:  #000000;
+color: rgb(255, 255, 255);
 display: flex;
-justify-content: space-around;
-padding: 24px 0;
+justify-content: space-around; 
+padding:0 , 10;
 }
 .cabeçalho-imagem{ 
 width: 10%;
 }
 .cabeçalho-lista-item{
 display: inline-block;
-margin: 0 10px ;
+margin: 0 16px ;
 font-size: 24px ;
 }
+.Escola-imagem{
+    width: 25%;
+}
 .Escola{
-color: white;
-    background-image: linear-gradient(#9E007B, #4EBFE9);
-display: flex;
-justify-content: center;
-align-items: center;
+    background-image: linear-gradient( #000000,#9e8c9a );
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
-.Escola-Image{ 
-    width: 35%;
+ .dividir-cont{
+   width: 35%;
+ }
+ .Titulo-escola{
+    padding: 24px 0;
+ }
+ .estudante-imagem{
+    width: 120px;
+ }
+ .estudante-icon{
+    width: 24px;
+ }
+.estudante-div{
+    text-align: center;
 }
-.dividir-cont{
-    width: 35%;
+.Titulo-ee{
+text-align: center;
+padding: 40px;  ;
 }
-.Escola-texto-1{
-    padding:24px 0 ;
+.estudante-todos{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
 }
